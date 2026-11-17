@@ -1,0 +1,1404 @@
+{
+  "name": "e2_calibration",
+  "started_utc": "20261113T225836Z",
+  "arms": {
+    "unbiased_mm": {
+      "T": 3600.0,
+      "families": [
+        {
+          "type": "binary",
+          "id": "B00",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 0"
+        },
+        {
+          "type": "binary",
+          "id": "B01",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 1"
+        },
+        {
+          "type": "binary",
+          "id": "B02",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 2"
+        },
+        {
+          "type": "binary",
+          "id": "B03",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 3"
+        },
+        {
+          "type": "binary",
+          "id": "B04",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 4"
+        },
+        {
+          "type": "binary",
+          "id": "B05",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 5"
+        },
+        {
+          "type": "binary",
+          "id": "B06",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 6"
+        },
+        {
+          "type": "binary",
+          "id": "B07",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 7"
+        },
+        {
+          "type": "binary",
+          "id": "B08",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 8"
+        },
+        {
+          "type": "binary",
+          "id": "B09",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 9"
+        },
+        {
+          "type": "binary",
+          "id": "B10",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 10"
+        },
+        {
+          "type": "binary",
+          "id": "B11",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 11"
+        },
+        {
+          "type": "binary",
+          "id": "B12",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 12"
+        },
+        {
+          "type": "binary",
+          "id": "B13",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 13"
+        },
+        {
+          "type": "binary",
+          "id": "B14",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 14"
+        },
+        {
+          "type": "binary",
+          "id": "B15",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 15"
+        },
+        {
+          "type": "binary",
+          "id": "B16",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 16"
+        },
+        {
+          "type": "binary",
+          "id": "B17",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 17"
+        },
+        {
+          "type": "binary",
+          "id": "B18",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 18"
+        },
+        {
+          "type": "binary",
+          "id": "B19",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 19"
+        },
+        {
+          "type": "binary",
+          "id": "B20",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 20"
+        },
+        {
+          "type": "binary",
+          "id": "B21",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 21"
+        },
+        {
+          "type": "binary",
+          "id": "B22",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 22"
+        },
+        {
+          "type": "binary",
+          "id": "B23",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 23"
+        }
+      ],
+      "terminal_share": 0.6,
+      "listings": {
+        "KX": [
+          "B00",
+          "B01",
+          "B02",
+          "B03",
+          "B04",
+          "B05",
+          "B06",
+          "B07",
+          "B08",
+          "B09",
+          "B10",
+          "B11",
+          "B12",
+          "B13",
+          "B14",
+          "B15",
+          "B16",
+          "B17",
+          "B18",
+          "B19",
+          "B20",
+          "B21",
+          "B22",
+          "B23"
+        ],
+        "PM": []
+      },
+      "agents": {
+        "amm": {
+          "venues": []
+        },
+        "noise": {
+          "n": 12,
+          "longshot_bias": 0.0
+        }
+      },
+      "strategies": {
+        "arb": {
+          "enabled": false
+        },
+        "mispricing": {
+          "enabled": false
+        }
+      }
+    },
+    "biased_mm": {
+      "T": 3600.0,
+      "families": [
+        {
+          "type": "binary",
+          "id": "B00",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 0"
+        },
+        {
+          "type": "binary",
+          "id": "B01",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 1"
+        },
+        {
+          "type": "binary",
+          "id": "B02",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 2"
+        },
+        {
+          "type": "binary",
+          "id": "B03",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 3"
+        },
+        {
+          "type": "binary",
+          "id": "B04",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 4"
+        },
+        {
+          "type": "binary",
+          "id": "B05",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 5"
+        },
+        {
+          "type": "binary",
+          "id": "B06",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 6"
+        },
+        {
+          "type": "binary",
+          "id": "B07",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 7"
+        },
+        {
+          "type": "binary",
+          "id": "B08",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 8"
+        },
+        {
+          "type": "binary",
+          "id": "B09",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 9"
+        },
+        {
+          "type": "binary",
+          "id": "B10",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 10"
+        },
+        {
+          "type": "binary",
+          "id": "B11",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 11"
+        },
+        {
+          "type": "binary",
+          "id": "B12",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 12"
+        },
+        {
+          "type": "binary",
+          "id": "B13",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 13"
+        },
+        {
+          "type": "binary",
+          "id": "B14",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 14"
+        },
+        {
+          "type": "binary",
+          "id": "B15",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 15"
+        },
+        {
+          "type": "binary",
+          "id": "B16",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 16"
+        },
+        {
+          "type": "binary",
+          "id": "B17",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 17"
+        },
+        {
+          "type": "binary",
+          "id": "B18",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 18"
+        },
+        {
+          "type": "binary",
+          "id": "B19",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 19"
+        },
+        {
+          "type": "binary",
+          "id": "B20",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 20"
+        },
+        {
+          "type": "binary",
+          "id": "B21",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 21"
+        },
+        {
+          "type": "binary",
+          "id": "B22",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 22"
+        },
+        {
+          "type": "binary",
+          "id": "B23",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 23"
+        }
+      ],
+      "terminal_share": 0.6,
+      "listings": {
+        "KX": [
+          "B00",
+          "B01",
+          "B02",
+          "B03",
+          "B04",
+          "B05",
+          "B06",
+          "B07",
+          "B08",
+          "B09",
+          "B10",
+          "B11",
+          "B12",
+          "B13",
+          "B14",
+          "B15",
+          "B16",
+          "B17",
+          "B18",
+          "B19",
+          "B20",
+          "B21",
+          "B22",
+          "B23"
+        ],
+        "PM": []
+      },
+      "agents": {
+        "amm": {
+          "venues": []
+        },
+        "noise": {
+          "n": 12,
+          "longshot_bias": 0.35
+        }
+      },
+      "strategies": {
+        "arb": {
+          "enabled": false
+        },
+        "mispricing": {
+          "enabled": false
+        }
+      }
+    },
+    "biased_nomm": {
+      "T": 3600.0,
+      "families": [
+        {
+          "type": "binary",
+          "id": "B00",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 0"
+        },
+        {
+          "type": "binary",
+          "id": "B01",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 1"
+        },
+        {
+          "type": "binary",
+          "id": "B02",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 2"
+        },
+        {
+          "type": "binary",
+          "id": "B03",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 3"
+        },
+        {
+          "type": "binary",
+          "id": "B04",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 4"
+        },
+        {
+          "type": "binary",
+          "id": "B05",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 5"
+        },
+        {
+          "type": "binary",
+          "id": "B06",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 6"
+        },
+        {
+          "type": "binary",
+          "id": "B07",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 7"
+        },
+        {
+          "type": "binary",
+          "id": "B08",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 8"
+        },
+        {
+          "type": "binary",
+          "id": "B09",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 9"
+        },
+        {
+          "type": "binary",
+          "id": "B10",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 10"
+        },
+        {
+          "type": "binary",
+          "id": "B11",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 11"
+        },
+        {
+          "type": "binary",
+          "id": "B12",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 12"
+        },
+        {
+          "type": "binary",
+          "id": "B13",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 13"
+        },
+        {
+          "type": "binary",
+          "id": "B14",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 14"
+        },
+        {
+          "type": "binary",
+          "id": "B15",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 15"
+        },
+        {
+          "type": "binary",
+          "id": "B16",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 16"
+        },
+        {
+          "type": "binary",
+          "id": "B17",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 17"
+        },
+        {
+          "type": "binary",
+          "id": "B18",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 18"
+        },
+        {
+          "type": "binary",
+          "id": "B19",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 19"
+        },
+        {
+          "type": "binary",
+          "id": "B20",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 20"
+        },
+        {
+          "type": "binary",
+          "id": "B21",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 21"
+        },
+        {
+          "type": "binary",
+          "id": "B22",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 22"
+        },
+        {
+          "type": "binary",
+          "id": "B23",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 23"
+        }
+      ],
+      "terminal_share": 0.6,
+      "listings": {
+        "KX": [
+          "B00",
+          "B01",
+          "B02",
+          "B03",
+          "B04",
+          "B05",
+          "B06",
+          "B07",
+          "B08",
+          "B09",
+          "B10",
+          "B11",
+          "B12",
+          "B13",
+          "B14",
+          "B15",
+          "B16",
+          "B17",
+          "B18",
+          "B19",
+          "B20",
+          "B21",
+          "B22",
+          "B23"
+        ],
+        "PM": []
+      },
+      "agents": {
+        "amm": {
+          "venues": []
+        },
+        "noise": {
+          "n": 12,
+          "longshot_bias": 0.35
+        }
+      },
+      "strategies": {
+        "arb": {
+          "enabled": false
+        },
+        "mispricing": {
+          "enabled": false
+        },
+        "mm": {
+          "enabled": false
+        }
+      }
+    },
+    "biased_fewinformed": {
+      "T": 3600.0,
+      "families": [
+        {
+          "type": "binary",
+          "id": "B00",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 0"
+        },
+        {
+          "type": "binary",
+          "id": "B01",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 1"
+        },
+        {
+          "type": "binary",
+          "id": "B02",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 2"
+        },
+        {
+          "type": "binary",
+          "id": "B03",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 3"
+        },
+        {
+          "type": "binary",
+          "id": "B04",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 4"
+        },
+        {
+          "type": "binary",
+          "id": "B05",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 5"
+        },
+        {
+          "type": "binary",
+          "id": "B06",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 6"
+        },
+        {
+          "type": "binary",
+          "id": "B07",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 7"
+        },
+        {
+          "type": "binary",
+          "id": "B08",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 8"
+        },
+        {
+          "type": "binary",
+          "id": "B09",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 9"
+        },
+        {
+          "type": "binary",
+          "id": "B10",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 10"
+        },
+        {
+          "type": "binary",
+          "id": "B11",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 11"
+        },
+        {
+          "type": "binary",
+          "id": "B12",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 12"
+        },
+        {
+          "type": "binary",
+          "id": "B13",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 13"
+        },
+        {
+          "type": "binary",
+          "id": "B14",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 14"
+        },
+        {
+          "type": "binary",
+          "id": "B15",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 15"
+        },
+        {
+          "type": "binary",
+          "id": "B16",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 16"
+        },
+        {
+          "type": "binary",
+          "id": "B17",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 17"
+        },
+        {
+          "type": "binary",
+          "id": "B18",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 18"
+        },
+        {
+          "type": "binary",
+          "id": "B19",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 19"
+        },
+        {
+          "type": "binary",
+          "id": "B20",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 20"
+        },
+        {
+          "type": "binary",
+          "id": "B21",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 21"
+        },
+        {
+          "type": "binary",
+          "id": "B22",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 22"
+        },
+        {
+          "type": "binary",
+          "id": "B23",
+          "p0_range": [
+            0.03,
+            0.97
+          ],
+          "total_var": 1.0,
+          "jump_share": 0.25,
+          "n_jumps": 4,
+          "title": "Independent event 23"
+        }
+      ],
+      "terminal_share": 0.6,
+      "listings": {
+        "KX": [
+          "B00",
+          "B01",
+          "B02",
+          "B03",
+          "B04",
+          "B05",
+          "B06",
+          "B07",
+          "B08",
+          "B09",
+          "B10",
+          "B11",
+          "B12",
+          "B13",
+          "B14",
+          "B15",
+          "B16",
+          "B17",
+          "B18",
+          "B19",
+          "B20",
+          "B21",
+          "B22",
+          "B23"
+        ],
+        "PM": []
+      },
+      "agents": {
+        "amm": {
+          "venues": []
+        },
+        "noise": {
+          "n": 12,
+          "longshot_bias": 0.35
+        },
+        "informed": {
+          "n": 1
+        }
+      },
+      "strategies": {
+        "arb": {
+          "enabled": false
+        },
+        "mispricing": {
+          "enabled": false
+        }
+      }
+    }
+  },
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115
+  ],
+  "metric_fn": "research.sim_metrics.e2_metrics",
+  "code_hash": "f68d587e11ab4202",
+  "versions": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pandas": "2.3.3",
+    "matplotlib": "3.11.2"
+  },
+  "n_jobs": 64,
+  "resumed_from": 0,
+  "wall_s": 69.0,
+  "finished_utc": "20261113T225945Z"
+}

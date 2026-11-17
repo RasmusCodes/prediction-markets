@@ -1,0 +1,45 @@
+{
+  "name": "e3_microstructure",
+  "started_utc": "20261113T225713Z",
+  "arms": {
+    "baseline": {
+      "T": 3600.0
+    },
+    "fast_informed": {
+      "T": 3600.0,
+      "agents": {
+        "informed": {
+          "n": 10,
+          "react_delay": [
+            0.2,
+            1.0
+          ]
+        }
+      }
+    }
+  },
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107
+  ],
+  "metric_fn": "research.sim_metrics.e3_metrics",
+  "code_hash": "f68d587e11ab4202",
+  "versions": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pandas": "2.3.3",
+    "matplotlib": "3.11.2"
+  },
+  "n_jobs": 16,
+  "resumed_from": 0,
+  "wall_s": 83.5,
+  "finished_utc": "20261113T225836Z"
+}

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prediction Market Desk</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">Prediction Market Desk <span class="tag">simulated exchange</span></div>
+  <nav class="tabs" role="tablist">
+    <button class="tab active" data-tab="sim" role="tab">Simulator</button>
+    <button class="tab" data-tab="real" role="tab">Real data</button>
+    <button class="tab" data-tab="research" role="tab">Research</button>
+  </nav>
+  <div class="clock">
+    <div class="progress"><div id="prog"></div></div>
+    <span id="clock">t = 0 s</span>
+  </div>
+  <div class="controls">
+    <button id="btnPause" title="Pause / resume">Pause</button>
+    <label>Speed
+      <select id="speed">
+        <option value="5">5x</option><option value="15">15x</option><option value="30" selected>30x</option>
+        <option value="60">60x</option><option value="120">120x</option><option value="300">300x</option>
+      </select>
+    </label>
+    <button id="btnReset" title="New session with a random seed">New session</button>
+  </div>
+</header>
+
+<main id="tab-sim" class="tabpane active">
+  <section class="card explorer">
+    <div class="card-h"><h2>Market explorer</h2>
+      <div class="filters">
+        <input id="filter" type="search" placeholder="Filter markets" aria-label="Filter markets">
+        <select id="venueSel" aria-label="Venue"><option value="">All venues</option></select>
+        <label class="chk"><input type="checkbox" id="showTruth" checked> truth</label>
+      </div>
+    </div>
+    <div class="tablewrap"><table id="mktTable" class="grid">
+      <thead><tr><th>Venue</th><th>Market</th><th class="r">Bid</th><th class="r">Ask</th><th class="r">Mid</th>
+      <th class="r truthcol">Truth</th><th class="r">Fair</th><th class="r">Vol</th></tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <section class="card chartcard">
+    <div class="card-h"><h2 id="chartTitle">Probability</h2><span class="sub" id="chartSub"></span></div>
+    <div class="legend" id="probLegend"></div>
+    <canvas id="probChart" height="260" aria-label="Probability chart"></canvas>
+    <div class="split">
+      <div>
+        <h3>Order book <span class="sub" id="bookSub"></span></h3>
+        <div id="book" class="book"></div>
+      </div>
+      <div>
+        <h3>Trades</h3>
+        <div class="tablewrap short"><table id="tape" class="grid small"><thead><tr><th>t</th><th class="r">Px</th>
+          <th class="r">Qty</th><th>Aggressor</th><th>Taker / maker</th></tr></thead><tbody></tbody></table></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="card side">
+    <div class="card-h"><h2>Trade ticket</h2><span class="sub">account "you", $10k per venue</span></div>
+    <form id="ticket" class="ticket">
+      <div class="row"><span id="tkMarket" class="mono">select a market</span></div>
+      <div class="row">
+        <label>Side <select id="tkSide"><option value="buy">Buy YES</option><option value="sell">Sell YES</option></select></label>
+        <label>Price (c) <input id="tkPx" type="number" min="1" max="99" value="50"></label>
+        <label>Qty <input id="tkQty" type="number" min="1" max="1000" value="10"></label>
+        <label>TIF <select id="tkTif"><option>GTC</option><option>IOC</option></select></label>
+      </div>
+      <button type="submit" class="primary">Send order</button>
+      <div id="tkMsg" class="sub"></div>
+    </form>
+    <h2 class="mt">Strategies</h2>
+    <div id="strats" class="strats"></div>
+    <h2 class="mt">Risk</h2>
+    <div id="risk" class="risk"></div>
+  </section>
+
+  <section class="card wide">
+    <div class="card-h"><h2>P&amp;L (marked to truth)</h2><span class="sub">per strategy, dollars</span></div>
+    <div class="legend" id="pnlLegend"></div>
+    <canvas id="pnlChart" height="200" aria-label="P and L chart"></canvas>
+  </section>
+
+  <section class="card wide">
+    <div class="card-h"><h2>Arbitrage scanner</h2><span class="sub" id="arbSub">LP over joint outcome states, after fees, at displayed depth</span></div>
+    <div class="tablewrap short"><table id="arbTable" class="grid small"><thead><tr><th>Family</th><th>Type</th>
+      <th class="r">Locked-in $</th><th class="r">Capital $</th><th>Legs</th></tr></thead><tbody></tbody></table></div>
+  </section>
+</main>
+
+<main id="tab-real" class="tabpane">
+  <section class="card wide">
+    <div class="card-h"><h2>Kalshi 15-minute crypto markets vs spot-implied probability</h2>
+      <select id="winSel" aria-label="Window"></select></div>
+    <p class="sub">Recorded live on 2026-11-13. Kalshi price = 1-second VWAP of trade prints; p* = probability implied by
+      Coinbase spot, the strike, time left and pre-window volatility (see paper, Section 4).</p>
+    <div class="legend" id="realLegend"></div>
+    <canvas id="realChart" height="280" aria-label="Kalshi vs spot chart"></canvas>
+  </section>
+  <section class="card wide"><div class="card-h"><h2>Research tables</h2></div><div id="realTables"></div></section>
+</main>
+
+<main id="tab-research" class="tabpane">
+  <section class="card wide"><div class="card-h"><h2>Figures from the paper</h2></div><div id="figs" class="figs"></div></section>
+</main>
+
+<div id="tip" class="tip" role="tooltip"></div>
+<script src="/static/app.js"></script>
+</body>
+</html>
