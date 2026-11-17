@@ -1,0 +1,5 @@
+# Check out text files with LF line endings on every platform. Each runs/*/manifest.json records a sha256 of
+# pmkt/*.py; a CRLF checkout (Windows core.autocrlf=true) would change that hash.
+* text=auto eol=lf
+*.png binary
+*.pdf binary

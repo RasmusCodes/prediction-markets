@@ -109,3 +109,7 @@ Not implemented on purpose. A live adapter would need the user's own exchange cr
 terms and per-endpoint rate limits, reduce-only and cancel-on-disconnect safeguards, and a separate review. The
 strategy classes only talk to the simulator API (`submit` / `cancel` / books), which is the seam where an adapter would
 sit.
+
+## License
+
+MIT; see `LICENSE`. The licence covers the code and paper in this repository, not market data you collect with it.
