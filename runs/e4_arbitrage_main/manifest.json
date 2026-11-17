@@ -1,0 +1,107 @@
+{
+  "name": "e4_arbitrage",
+  "started_utc": "20261113T222728Z",
+  "arms": {
+    "no_arbitrageurs": {
+      "T": 3600.0,
+      "monitor": {
+        "enabled": true,
+        "period": 5.0,
+        "min_profit": 1.0
+      },
+      "agents": {
+        "arbitrageur": {
+          "n": 0
+        }
+      },
+      "strategies": {
+        "arb": {
+          "enabled": false
+        }
+      }
+    },
+    "simple_arbitrageur": {
+      "T": 3600.0,
+      "monitor": {
+        "enabled": true,
+        "period": 5.0,
+        "min_profit": 1.0
+      },
+      "strategies": {
+        "arb": {
+          "enabled": false
+        }
+      }
+    },
+    "lp_arbitrageur": {
+      "T": 3600.0,
+      "monitor": {
+        "enabled": true,
+        "period": 5.0,
+        "min_profit": 1.0
+      },
+      "agents": {
+        "arbitrageur": {
+          "n": 0
+        }
+      }
+    },
+    "both": {
+      "T": 3600.0,
+      "monitor": {
+        "enabled": true,
+        "period": 5.0,
+        "min_profit": 1.0
+      }
+    },
+    "no_fees_no_arbs": {
+      "T": 3600.0,
+      "monitor": {
+        "enabled": true,
+        "period": 5.0,
+        "min_profit": 1.0
+      },
+      "agents": {
+        "arbitrageur": {
+          "n": 0
+        }
+      },
+      "strategies": {
+        "arb": {
+          "enabled": false
+        }
+      },
+      "venues": {
+        "KX": {
+          "fee": {
+            "kind": "zero"
+          }
+        }
+      }
+    }
+  },
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107
+  ],
+  "metric_fn": "research.sim_metrics.e4_metrics",
+  "code_hash": "f68d587e11ab4202",
+  "versions": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pandas": "2.3.3",
+    "matplotlib": "3.11.2"
+  },
+  "n_jobs": 40,
+  "resumed_from": 0,
+  "wall_s": 893.2,
+  "finished_utc": "20261113T224221Z"
+}

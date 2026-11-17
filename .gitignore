@@ -1,0 +1,17 @@
+# Raw market data (~2.8 GB of SQLite stores and caches): rebuilt locally with collect/, never committed
+data/*
+!data/DATA.md
+
+# Local scratch work and logs (logs contain machine paths)
+scratch/
+*.log
+
+# Incomplete early run folders; the paper uses runs/<experiment>_main and runs/e5_mm_design_seeds32
+runs/2026*_*/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/

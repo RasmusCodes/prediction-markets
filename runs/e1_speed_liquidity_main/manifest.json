@@ -1,0 +1,97 @@
+{
+  "name": "e1_speed_liquidity",
+  "started_utc": "20261113T224221Z",
+  "arms": {
+    "baseline": {
+      "T": 3600.0
+    },
+    "no_our_mm": {
+      "T": 3600.0,
+      "strategies": {
+        "mm": {
+          "enabled": false
+        }
+      }
+    },
+    "thin": {
+      "T": 3600.0,
+      "agents": {
+        "naive_mm": {
+          "size": 5
+        },
+        "amm": {
+          "venues": []
+        }
+      },
+      "strategies": {
+        "mm": {
+          "enabled": false
+        }
+      }
+    },
+    "deep": {
+      "T": 3600.0,
+      "agents": {
+        "naive_mm": {
+          "size": 40
+        }
+      },
+      "strategies": {
+        "mm": {
+          "params": {
+            "size": 60,
+            "levels": 3
+          }
+        }
+      }
+    },
+    "fast_informed": {
+      "T": 3600.0,
+      "agents": {
+        "informed": {
+          "n": 10,
+          "react_delay": [
+            0.2,
+            1.0
+          ]
+        }
+      }
+    },
+    "slow_informed": {
+      "T": 3600.0,
+      "agents": {
+        "informed": {
+          "n": 3,
+          "react_delay": [
+            5.0,
+            20.0
+          ]
+        }
+      }
+    }
+  },
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107
+  ],
+  "metric_fn": "research.sim_metrics.e1_metrics",
+  "code_hash": "f68d587e11ab4202",
+  "versions": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pandas": "2.3.3",
+    "matplotlib": "3.11.2"
+  },
+  "n_jobs": 48,
+  "resumed_from": 0,
+  "wall_s": 609.5,
+  "finished_utc": "20261113T225231Z"
+}
