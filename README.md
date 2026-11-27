@@ -4,6 +4,8 @@ An automated prediction-market maker and quantitative trading system: a simulate
 automated market maker, an LP arbitrage engine, risk and execution layers, a backtester, a live dashboard, and an
 empirical research paper built on Kalshi and Polymarket market data.
 
+**Project page:** [rasmuscodes.github.io/projects/prediction-markets](https://rasmuscodes.github.io/projects/prediction-markets/)
+
 **Real platforms are read-only by design.** The collectors use only public, documented market-data endpoints, under
 token-bucket rate limits well below the published ones, with a generic user agent. Nothing in this repository places
 orders on a real venue; every strategy trades only the simulated exchange or a historical replay.
